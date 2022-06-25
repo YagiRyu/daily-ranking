@@ -1,4 +1,6 @@
 [versions]
+androidGradlePlugin = "7.4.0-alpha02"
+kotlin = "1.6.10"
 hilt = "2.41"
 coroutine = "1.6.1"
 viewPager = "0.17.0"
@@ -9,7 +11,7 @@ material3 = "1.0.0-alpha11"
 room = "2.4.2"
 androidLifecycle = "2.4.1"
 androidActivity = "1.4.0"
-androidCore = "1.7.0"
+androidCore = "1.8.0"
 mockk = "1.12.3"
 androidCoreTesting = "2.1.0"
 junit4 = "4.13.2"
@@ -24,6 +26,7 @@ retrofit = "2.9.0"
 moshi = "1.12.0"
 
 [libraries]
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidCore" }
 androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
 androidx-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
@@ -59,6 +62,7 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
 moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
 moshi-kotlin = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 
 [plugins]
 protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
