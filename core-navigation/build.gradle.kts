@@ -1,6 +1,6 @@
 plugins {
-    id("dailyranking.android.application.compose")
-    id("dailyranking.android.application")
+    id("dailyranking.android.library")
+    id("dailyranking.android.library.compose")
     kotlin("kapt")
     id("dagger.hilt.android.plugin")
 }
