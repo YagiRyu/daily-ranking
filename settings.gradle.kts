@@ -23,3 +23,5 @@ dependencyResolutionManagement {
 rootProject.name = "daily-ranking"
 include(":app")
 include(":core-navigation")
+include(":feature-home")
+include(":core-ui")
