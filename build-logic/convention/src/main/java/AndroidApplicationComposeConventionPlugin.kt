@@ -2,6 +2,7 @@ import com.android.build.gradle.internal.dsl.BaseAppModuleExtension
 import com.github.ryutaro.build_logic.configureAndroidCompose
 import org.gradle.api.Plugin
 import org.gradle.api.Project
+import org.gradle.kotlin.dsl.getByType
 
 class AndroidApplicationComposeConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {

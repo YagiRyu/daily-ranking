@@ -1,6 +1,8 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("dailyranking.android.application.compose")
+    id("dailyranking.android.application")
+    kotlin("kapt")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -54,6 +56,10 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.material3.core)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    kaptAndroidTest(libs.hilt.compiler)
+
     testImplementation(libs.junit.test)
     androidTestImplementation(libs.junit.test)
     androidTestImplementation(libs.espresso.core)
