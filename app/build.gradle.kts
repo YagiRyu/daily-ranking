@@ -13,7 +13,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.github.ryutaro.core_test.CustomTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -35,6 +35,7 @@ android {
 dependencies {
 
     implementation(project(":core-navigation"))
+    implementation(project(":core-designsystem"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle)
@@ -55,5 +56,4 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.androidx.ui.test.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
-    debugImplementation(libs.androidx.compose.ui.manifest)
 }

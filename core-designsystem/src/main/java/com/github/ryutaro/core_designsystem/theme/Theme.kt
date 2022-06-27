@@ -1,4 +1,4 @@
-package com.github.ryutaro.daily_ranking.ui.theme
+package com.github.ryutaro.core_designsystem.theme
 
 import android.app.Activity
 import android.os.Build
