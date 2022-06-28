@@ -4,6 +4,8 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":core-test"))
+
     api(libs.androidx.ui)
     api(libs.material.icon)
     api(libs.material3.core)
