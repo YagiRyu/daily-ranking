@@ -3,4 +3,7 @@ plugins {
     kotlin("kapt")
 }
 
-dependencies {}
+dependencies {
+    api(libs.moshi.kotlin)
+    api(libs.moshi)
+}
