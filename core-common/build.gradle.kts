@@ -7,4 +7,6 @@ dependencies {
     implementation(libs.coroutine)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+
+    testImplementation(project(":core-test"))
 }

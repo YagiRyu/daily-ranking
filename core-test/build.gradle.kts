@@ -12,6 +12,7 @@ dependencies {
     api(libs.junit.test)
     api(libs.coroutine.test)
     api(libs.arch.core)
+    api(libs.turbine)
 
     api(libs.espresso.core)
     api(libs.androidx.ui.test.junit)
