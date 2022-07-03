@@ -1,5 +1,5 @@
 # daily-ranking
-Spotifyデイリーランキングを表示するアプリ🎧
+その日の勉強時間を記録するアプリ🎧
 
 ### アーキテクチャ
 - MVVM + UseCase + Repository
