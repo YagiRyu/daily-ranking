@@ -32,5 +32,9 @@ gradlePlugin {
             id = "dailyranking.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
+        register("androidFeature") {
+            id = "dailyranking.android.feature"
+            implementationClass = "AndroidLibraryFeatureConventionPlugin"
+        }
     }
 }
