@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">daily-ranking</string>
+    <string name="home">HOME</string>
+    <string name="profile">PROFILE</string>
 </resources>

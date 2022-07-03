@@ -36,6 +36,8 @@ dependencies {
 
     implementation(project(":core-navigation"))
     implementation(project(":core-designsystem"))
+    implementation(project(":feature-home"))
+    implementation(project(":feature-profile"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle)
