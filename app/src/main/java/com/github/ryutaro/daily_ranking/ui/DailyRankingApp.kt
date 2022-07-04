@@ -18,7 +18,6 @@ import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.github.ryutaro.core_designsystem.theme.DailyrankingTheme
-import com.github.ryutaro.core_navigation.DailyRankingNavigationDestination
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable

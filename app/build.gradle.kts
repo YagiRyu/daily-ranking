@@ -44,7 +44,6 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.tooling.preview)
-
     implementation(libs.material3.core)
     implementation(libs.material3.windowSizeClass)
     implementation(libs.material.icon)
