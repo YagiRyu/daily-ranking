@@ -36,8 +36,12 @@ dependencies {
 
     implementation(project(":core-navigation"))
     implementation(project(":core-designsystem"))
+    implementation(project(":core-datastore"))
+
     implementation(project(":feature-home"))
     implementation(project(":feature-profile"))
+
+    androidTestImplementation(":core-test")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle)
@@ -52,10 +56,4 @@ dependencies {
     kapt(libs.hilt.compiler)
     kaptAndroidTest(libs.hilt.compiler)
     androidTestImplementation(libs.hilt.android.test)
-
-    testImplementation(libs.junit.test)
-    androidTestImplementation(libs.junit.test)
-    androidTestImplementation(libs.espresso.core)
-    androidTestImplementation(libs.androidx.ui.test.junit)
-    debugImplementation(libs.androidx.compose.ui.tooling)
 }
